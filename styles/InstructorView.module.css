@@ -1,0 +1,90 @@
+.pollControls {
+    position: fixed;
+    padding: 8px 16px;
+    bottom: 0;
+    background: rgb(83, 104, 120);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    z-index: 2000;
+}
+
+.pollButton {
+    font-size: 18px;
+    margin: 0px 8px;
+}
+
+.questionImage {
+    max-width: 60vw;
+    max-height: 60vh;
+    z-index: 1000;
+    margin-bottom: 1em;
+}
+
+.logo {
+    position: fixed;
+    top: 16px;
+    z-index: 500;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    background-color: rgb(83, 104, 120);
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    color: white;
+    height: auto;
+    max-height: 400px;
+    overflow-y: auto;
+    max-width: 15%;
+    z-index: 2000;
+}
+
+.graph {
+    background-color: rgb(83, 104, 120);
+    border: 1px solid rgb(0, 0, 0);
+    color: #cce3f1;
+    border-radius: 8px;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    width: 15%;
+    height: auto;
+    z-index: 2000;
+}
+
+.graphBar {
+    height: 34px;
+    border-radius: 0px 6px 6px 0px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.fakeController {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: auto;
+    z-index: 2000;
+    background-color: gray;
+    padding: 0.5em;
+}
+
+.sessionCode {
+    background-color: rgb(83, 104, 120);
+    border: 1px solid rgb(0, 0, 0);
+    color: #cce3f1;
+    font-size: 18px;
+    border-radius: 6px 6px 6px 6px;
+    padding: 0.5em;
+}
+
+.questionLink {
+    display: block;
+    color: white;
+    margin-bottom: 0.25em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

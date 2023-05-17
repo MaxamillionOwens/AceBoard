@@ -1,0 +1,40 @@
+.uploadSymbol {
+    width: 27px;
+    height: 27px;
+}
+
+.table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.td {
+    margin: 0;
+    padding: 15px;
+}
+
+.uploadBox {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 16px;
+    border-style: dashed;
+    width: 300px;
+}
+
+.DivWScroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.uploadBox * {
+    pointer-events: none;
+}
+
+.uploadBox button {
+    pointer-events: all;
+}

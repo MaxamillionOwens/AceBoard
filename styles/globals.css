@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto;
+    background: radial-gradient(#96cbe2, #0e3973);
+    height: 100vh;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 283px;
+}
+
+#content {
+    margin-top: 15px;
+    background-color: #fbfbff;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+button {
+    background-color: #cce3f1;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #99c7e3;
+}
+
+button:hover:not(:disabled) {
+    background-color: #b2d5ea;
+}
+
+button:active:not(:disabled) {
+    background-color: #99c7e3;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.input-group {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+li {
+    margin-bottom: 1em;
+}

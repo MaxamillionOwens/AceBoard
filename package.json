@@ -1,0 +1,43 @@
+{
+    "name": "aceboard",
+    "version": "0.1.0",
+    "contributors": [
+        "Jacob Skelton",
+        "Josh Vickery",
+        "Kelsey Genteman",
+        "Maxamillion Owens",
+        "Tavish McKinley"
+    ],
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start -H 127.0.0.1 -p 3000",
+        "lint": "next lint",
+        "format": "prettier . -w --ignore-path .gitignore"
+    },
+    "dependencies": {
+        "file-saver": "^2.0.5",
+        "next": "^13.0.0",
+        "prompt-sync": "^4.2.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-toastify": "^9.1.2",
+        "react-usestateref": "^1.0.8",
+        "sharp": "^0.32.0",
+        "socket.io": "^4.6.0",
+        "socket.io-client": "^4.6.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.7",
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "@types/uuid": "^9.0.1",
+        "eslint": "^8.26.0",
+        "eslint-config-next": "^13.0.0",
+        "eslint-config-prettier": "^8.6.0",
+        "prettier": "^2.8.3",
+        "typescript": "^5.0.2"
+    }
+}
